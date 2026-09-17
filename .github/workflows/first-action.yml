@@ -1,0 +1,11 @@
+name: first workf
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "h ello"
+      - name: print gb
+        run: echo "done"
+      
